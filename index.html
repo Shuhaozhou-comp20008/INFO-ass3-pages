@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KING</title>
+<link href="css/style.css" rel="stylesheet" />
+<script src="js/mini/jquery-1.8.3.min.js"></script>
+<script>
+    $(function() {
+        var oHeader = $(".header");
+        var oDiv1 = $(".content-box2 a");
+        var oDiv4 = $(".content-box4 a")
+
+        oDiv1.hover(function() {
+            $(this).find("img").addClass('hover-scale')
+        }, function() {
+            $(this).find("img").removeClass('hover-scale')
+        })
+
+        oDiv4.hover(function() {
+            $(this).find("img").addClass('hover-scale')
+        }, function() {
+            $(this).find("img").removeClass('hover-scale')
+        })
+    })
+</script>
+</head>
+
+<body>
+<!-- 内容 -->
+<div class="pc">
+    <div class="header">
+        <div class="header-top clearfix">
+            <div class="top-l">
+                <a href=""><img src="images/ico-1.jpg" alt=""></a>
+                <a href=""><img src="images/ico-2.jpg" alt=""></a>
+            </div>
+            <div class="top-r">
+                <input type="text">
+                <a href=""><img src="images/ico-3.jpg" alt="" class="ml0"></a>
+                <a href="cart.html"><img src="images/ico-4.jpg" alt=""></a>
+                <a href="zhuce.html"><img src="images/ico-5.jpg" alt=""></a>
+                <a href="error.html"><img src="images/ico-6.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <a href="product.html">Products</a>
+            <a href="">KING DIFFERENCE</a>
+            <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            <a href="">Editorial</a>
+            <a href="">Locations</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="bg"></div>
+        <div class="con">
+            <div class="content-box1">
+                <h3>Sofas</h3>
+                <p>Discover the multi-award-winning King sofa collection.<br>
+                    Choose from sofas perfect for lounging, <br>
+                    modular sofas designedFor flexibility or luxurious <br>
+                    recliner for complete head-to-toe comfort.Made to <br>
+                    order, sofas are available in a range of premium fabric <br>
+                    and European Leathers and features the famous King <br>
+                    steel frame.</p> 
+                    <img src="images/1.jpg">
+                    <a href="sofa.html"><img src="images/learn.jpg" alt="" width="210" style="width: 210px!important; margin-top: 20px;"></a>
+            </div>
+            <div class="content-box2">
+                <img src="images/2.jpg">
+                <h3>Reo Recliner</h3>
+                <a href=""><img src="images/learn.jpg" alt=""></a>
+            </div>
+            <div class="content-box3">
+                <img src="images/3.jpg">
+                <a href=""><img src="images/learn.jpg" alt="" width="210" style="width: 210px!important;margin-top: 20px;"></a>
+            </div>
+            <div class="content-box4">
+                <img src="images/4.jpg">
+                <h3>King Cloud III</h3>
+                <a href=""><img src="images/learn.jpg" alt=""></a>
+                <img src="images/5.jpg" class="mt-20">
+                <h3>SSTRATA II</h3>
+                <a href=""><img src="images/learn.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="iphone">
+    <div class="i-header">
+        <div class="i-top clearfix">
+            <a href=""><img src="images/ico-1.jpg" alt="" class="i-1"></a>
+            <a href=""><img src="images/ico-2.jpg" alt="" class="i-2"></a>
+            <a href="error.html"><img src="images/ico-6.jpg" alt="" class="i-3"></a>
+            <a href="index.html"><img src="images/logo.jpg" alt="" class="i-4"></a>
+
+        </div>
+        <div class="i-bottom">
+            <a href="zhuce.html"><img src="images/i-4.jpg" alt=""></a>
+            <a href=""><img src="images/i-2.jpg" alt="" class="i-5"></a>
+            <a href="cart.html"><img src="images/i-3.jpg" alt="" class="i-4"></a> 
+        </div>
+    </div>
+    <div class="banner">
+        <img src="images/i-1.jpg" alt="">
+    </div>
+    <div class="jiantou">
+        <a href="#"><img src="images/i-ico-1.jpg" alt=""></a>
+    </div>
+    <div class="i-nav">
+        <a href="product.html">Products</a>
+        <a href="">KING DIFFERENCE</a>
+        <a href="">Editorial</a>
+        <a href="">Locations</a>
+    </div>        
+</div>
+</body>
+</html>
